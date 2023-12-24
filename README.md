@@ -1,5 +1,22 @@
 # React + TypeScript + Vite
 
+## Clone the repository:
+```
+git clone https://github.com/bohuslavskyi/AlfaBet_test.git
+```
+## Install dependencies:
+```angular2html
+cd AlfaBet_test
+npm install
+```
+## Start the development server:
+```angular2html
+npm run dev
+```
+## Open your browser and navigate to link to view the app.
+http://localhost:5173/
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
