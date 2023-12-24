@@ -1,0 +1,40 @@
+@import "/src/style/color-system";
+
+.betBtn {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 100%;
+  border: none;
+  background: $gray;
+  padding: 13px 10px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+  transition: all .3s ease-in-out;
+
+  &.small {
+    font-family: Arial;
+    font-size: 10.5px;
+    min-width: 30%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &.active {
+    background: $secondary;
+
+    &:hover {
+      background: #d09c12;
+    }
+  }
+
+  &:hover {
+    color: $primary;
+    background: #bdbdbd;
+  }
+}
